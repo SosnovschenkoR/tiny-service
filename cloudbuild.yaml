@@ -11,3 +11,5 @@ steps:
   args: ['run', 'deploy', 'tiny-app', '--image', 'gcr.io/rsosnovschenko/tiny-image', '--region', 'REGION']
 images:
 - gcr.io/rsosnovschenko/tiny-image
+options:
+  logging: CLOUD_LOGGING_ONLY
