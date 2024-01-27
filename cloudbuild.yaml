@@ -11,5 +11,3 @@ steps:
   args: ['run', 'deploy', 'tiny-app', '--image', 'gcr.io/rsosnovschenko/tiny-image', '--region', 'REGION']
 images:
 - gcr.io/rsosnovschenko/tiny-image
-options:
-  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
